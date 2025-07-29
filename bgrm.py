@@ -47,7 +47,7 @@ class BackgroundRemover:
                         output_path) else ".", exist_ok=True)
                     result.save(output_path)
                     pbar.update(1)
-                    pbar.set_description("✓ Complete")
+                    pbar.set_description("Complete!")
             else:
                 print(f"Processing: {image_path}")
                 image = Image.open(image_path)
@@ -56,7 +56,7 @@ class BackgroundRemover:
                     output_path) else ".", exist_ok=True)
                 result.save(output_path)
 
-            print(f"✓ Background removed! Saved to {output_path}")
+            print(f"Background removed! Saved to {output_path}")
             return output_path
 
         except Exception as e:
@@ -91,7 +91,7 @@ class BackgroundRemover:
             if result:
                 processed_files.append(result)
 
-        print(f"✓ Processed {len(processed_files)} images successfully")
+        print(f"Processed {len(processed_files)} images successfully")
         return processed_files
 
 
