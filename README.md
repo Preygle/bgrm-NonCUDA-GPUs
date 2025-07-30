@@ -1,8 +1,8 @@
 
 # AI Background Remover
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo.svg?style=social&label=Star)](https://github.com/Preygle/bgrm-NonCUDA-GPUs/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/your-repo.svg?style=social&label=Fork)](https://github.com/Preygle/bgrm-NonCUDA-GPUs/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Preygle/bgrm-NonCUDA-GPUs.svg?style=social&label=Star)](https://github.com/Preygle/bgrm-NonCUDA-GPUs/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Preygle/bgrm-NonCUDA-GPUs.svg?style=social&label=Fork)](https://github.com/Preygle/bgrm-NonCUDA-GPUs/network/members)
 
 Ever wanted to yeet the background out of your images with the power of AI? Look no further! This project uses the incredible [BriaAI RMBG-1.4 model](https://huggingface.co/briaai/RMBG-1.4) to automagically remove backgrounds from your images. It's fast, it's easy to use, and it's powered by the magic of ONNX for some serious performance gains.
 
