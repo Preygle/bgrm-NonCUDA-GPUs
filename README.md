@@ -57,7 +57,7 @@ python bgrm.py
 
 #### `bgrm_onnx.py`
 
-This script uses the ONNX runtime for high-performance inference. It's a great option if you need to process a lot of images quickly.
+This script uses the ONNX runtime with DirectML for high-performance, GPU-accelerated inference. The cool part? You don't need a CUDA or ROCm-supported GPU! This was tested and confirmed working on an AMD Radeon RX 6700M GPU, making background removal accessible on a wider range of hardware. It's a great option if you need to process a lot of images quickly.
 
 ```bash
 python bgrm_onnx.py
